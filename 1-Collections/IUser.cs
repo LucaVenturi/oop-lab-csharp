@@ -6,7 +6,7 @@ namespace Collections
     public interface IUser
     {
         /// <summary>
-        /// The age of the user, or null it the user specified no age upon registration
+        /// The age of the user, or null if the user specified no age upon registration
         /// </summary>
         uint? Age { get; }
         
